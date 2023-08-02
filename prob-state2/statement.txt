@@ -1,0 +1,1 @@
+Analysis on highly populated versus low populated districts. Find out the amount of credit and debit transaction from 5 highly populated and 5 lowest populated areas respectively. Analysis should be from last 3 months.
