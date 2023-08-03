@@ -1,3 +1,5 @@
+# This is used for re-structuring data for faster compiling and processing.
+
 import openpyxl
 import csv
 
