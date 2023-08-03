@@ -1,1 +1,7 @@
+Question: 
+
 How many cards are issued to mid age females?
+
+Solution .txt file:
+
+Available under assests folder.

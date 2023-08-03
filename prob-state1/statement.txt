@@ -7,4 +7,4 @@ Prepare a dashboard for all the accounts doing credit transactions from Moravia 
 
 Solution .csv file:
 
-Available under assests folder.
+Available under assests/scripted_data folder.

@@ -4,4 +4,4 @@ Analysis on highly populated versus low populated districts. Find out the amount
 
 Solution .xlsx file:
 
-Available under assests folder.
+Available under assests/scripted_data folder.
