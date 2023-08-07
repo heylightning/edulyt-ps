@@ -3,7 +3,7 @@ from openpyxl import Workbook
 
 new_workbook = Workbook()
 
-filename = './assests/maintained/data/district.csv'
+filename = './assests/maintained/district.csv'
 maxPopulationDID = []
 minPopulationDID = []
 
@@ -23,7 +23,7 @@ with open(filename, 'r', newline='', encoding='utf-8') as csvfile:
             elif (int(row[3]) in low_population):
                 minPopulationDID.append(row[0])
 
-filename_newAccount = './assests/maintained/data/new_account.csv'
+filename_newAccount = './assests/maintained/new_account.csv'
 minStage1OBJ = {}
 maxStage1OBJ = {}
 minStage1List = []
@@ -48,7 +48,7 @@ with open(filename_newAccount, 'r', newline='', encoding='utf-8') as csvfile:
 
 # Considering last three months: ['MAY', 'JUN', 'JUL']
 
-filename_newTransaction = './assests/maintained/data/new_transaction.csv'
+filename_newTransaction = './assests/maintained/new_transaction.csv'
 month = [
     'MAY', 'JUN', 'JUL'
 ]
@@ -125,6 +125,6 @@ min_sheet.append(['Account ID', 'Month', 'Amount'])
 for row_data in min_populatedSheet:
     min_sheet.append(row_data)
 
-new_workbook.save('./assests/maintained/scripted_data/prob_state2.xlsx')
+new_workbook.save('./assests/scripted_data/prob_state2.xlsx')
 
 print('Done!')

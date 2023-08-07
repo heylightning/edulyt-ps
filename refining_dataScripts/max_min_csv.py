@@ -2,7 +2,7 @@
 
 import csv
 
-filename = './assests/maintained/data/district.csv'
+filename = './assests/maintained/district.csv'
 temp = []
 with open(filename, 'r', newline='', encoding='utf-8') as csvfile:
     csv_reader = csv.reader(csvfile)

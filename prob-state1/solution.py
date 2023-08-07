@@ -1,6 +1,6 @@
 import csv
 
-filename = './assests/maintained/data/district.csv'
+filename = './assests/maintained/district.csv'
 districtList = []
 districtOBJ = {}
 with open(filename, 'r', newline='', encoding='utf-8') as csvfile:
@@ -20,7 +20,7 @@ with open(filename, 'r', newline='', encoding='utf-8') as csvfile:
             }
             districtList.append(districtOBJ)
 
-filename_newAccount = './assests/maintained/data/new_account.csv'
+filename_newAccount = './assests/maintained/new_account.csv'
 newAccountList = []
 newAccountOBJ = {}
 with open(filename_newAccount, 'r', newline='', encoding='utf-8') as csvfile:
@@ -50,7 +50,7 @@ for running in newAccountList:
 
 transactionOBJ = {}
 transactionList = []
-filename_transaction = './assests/maintained/data/new_transaction.csv'
+filename_transaction = './assests/maintained/new_transaction.csv'
 month = [
     'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN',
     'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'
@@ -90,7 +90,7 @@ for a in range(len(transactionList)):
             f2List.append(temp)
             temp = []
 
-scripted_dataFilename = './assests/maintained/scripted_data/prob_state1.csv'
+scripted_dataFilename = './assests/scripted_data/prob_state1.csv'
 
 with open(scripted_dataFilename, 'w', newline='', encoding='utf-8') as csvfile:
     csv_writer = csv.writer(csvfile)
