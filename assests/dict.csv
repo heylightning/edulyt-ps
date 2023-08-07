@@ -1,0 +1,55 @@
+COLUMN NAME,TYPE,Table,DESCRIPTION
+account_id,integer,Account,identification of the account
+district_id,integer,Account,location of the branch
+frequency,string,Account,"frequency of issuance of statements: ""POPLATEK MESICNE"" stands for monthly issuance ""POPLATEK TYDNE"" stands for weekly issuance ""POPLATEK PO OBRATU"" stands for issuance after transaction"
+date,integer,Account,date of creating of the account: in the form YYMMDD
+card_id,integer,Card,record identifier
+disp_id,integer,Card,disposition to an account
+type,string,Card,"type of card: possible values are ""junior"", ""classic"", ""gold"""
+issued,string,Card,issue date: in the form YYMMDD
+client_id,integer,Client,client identifier
+birth_number,integer,Client,"birthday and sex: the number is in the form YYMMDD for men, the number is in the form YYMM+50DD for women, where YYMMDD is the date of birth"
+district_id,integer,Client,address of the client
+disp_id,integer,Display,record identifier
+client_id,integer,Display,identification of a client
+account_id,integer,Display,identification of an account
+type,string,Display,type of disposition (owner/user): only owner can issue permanent orders and ask for a loan
+a1,integer,District,district code
+a2,string,District,district name
+a3,string,District,region
+a4,integer,District,no. of inhabitants
+a5,integer,District,no. of municipalities with inhabitants < 499
+a6,integer,District,no. of municipalities with inhabitants 500-1999
+a7,integer,District,no. of municipalities with inhabitants 2000-9999
+a8,integer,District,no. of municipalities with inhabitants >10000
+a9,integer,District,no. of cities
+a10,decimal,District,ratio of urban inhabitants
+a11,integer,District,average salary
+a12,decimal,District,unemployment rate '95
+a13,decimal,District,unemployment rate '96
+a14,integer,District,no. of entrepreneurs per 1000 inhabitants
+a15,integer,District,no. of committed crimes '95
+a16,integer,District,no. of committed crimes '96
+loan_id,integer,Loan,record identifier
+account_id,integer,Loan,identification of the account
+date,integer,Loan,date when the loan was granted: in the form YYMMDD
+amount,integer,Loan,amount of money
+duration,integer,Loan,duration of the loan
+payments,decimal,Loan,monthly payments
+status,string,Loan,"status of paying off the loan: 'A' stands for contract finished, no problems, 'B' stands for contract finished, loan not payed, 'C' stands for running contract, OK so far, 'D' stands for running contract, client in debt"
+order_id,integer,Order,record identifier
+account_id,integer,Order,"account, the order is issued for"
+bank_to,string,Order,bank of the recipient: each bank has unique two-letter code
+account_to,integer,Order,account of the recipient
+amount,decimal,Order,debited amount
+k_symbol,string,Order,"characterization of the payment: ""POJISTNE"" stands for insurrance payment ""SIPO"" stands for household payment ""LEASING"" stands for leasing ""UVER"" stands for loan payment"
+trans_id,integer,Trans,record identifier
+account_id,integer,Trans,account the transaction deals with
+date,integer,Trans,date of transaction: in the form YYMMDD
+type,string,Trans,"+/- transaction: ""PRIJEM"" stands for credit ""VYDAJ"" stands for withdrawal"
+operation,string,Trans,"mode of transaction: ""VYBER KARTOU"" credit card withdrawal ""VKLAD"" credit in cash ""PREVOD Z UCTU"" collection from another bank ""VYBER"" withdrawal in cash ""PREVOD NA UCET"" remittance to another bank"
+amount,decimal,Trans,amount of money
+balance,decimal,Trans,balance after transaction
+k_symbol,string,Trans,"characterization of the transaction: ""POJISTNE"" insurance payment ""SLUZBY"" payment for statement ""UROK"" interest credited ""SANKC. UROK"" sanction interest if negative balance ""SIPO"" household ""DUCHOD"" old-age pension ""UVER"" loan payment"
+bank,string,Trans,bank of the partner: each bank has unique two-letter code
+account,integer,Trans,account of the partner
