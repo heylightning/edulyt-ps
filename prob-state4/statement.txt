@@ -1,1 +1,7 @@
+Question:
+
 Number of cards issued in district where average salary is more than 9000, is it a good strategy?
+
+Solution .txt file:
+
+Available under assests/scripted_data folder.

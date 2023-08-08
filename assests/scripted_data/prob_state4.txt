@@ -1,0 +1,1 @@
+Number of cards issued in district where average salary is more than 9000 is 441. It is a good strategy to give cards to only those people who have salary above 9000 because they are more likely to pay back the loan.
