@@ -1,0 +1,7 @@
+Question:
+
+Create profile of customers in accordance of districts where max money is being paid to 
+a. Insurance.
+b. Household
+c. Leasing
+d. Loan

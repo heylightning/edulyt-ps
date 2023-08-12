@@ -1,0 +1,4 @@
+Question:
+
+Relate the output of above with district conditions like Crime, Unemployment Rate and 
+Average Salary.

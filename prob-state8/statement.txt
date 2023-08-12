@@ -1,0 +1,4 @@
+Question:
+
+Create profile of customers in accordance of districts for the status of loan payment, there will 
+be 4 categories.
