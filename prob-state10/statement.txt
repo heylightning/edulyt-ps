@@ -1,3 +1,7 @@
 Question:
 
 Owners from which district are issuing permanent orders and asking for a loan.
+
+Solution .txt file:
+
+Available under assests/scripted_data folder.

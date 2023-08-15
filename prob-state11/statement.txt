@@ -1,3 +1,7 @@
 Question:
 
 Can we say customers from Bohemia are the ones having more male customers possessing Gold cards in comparison of Moravia?
+
+Solution .txt file:
+
+Available under assests/scripted_data folder.

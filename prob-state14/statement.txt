@@ -1,3 +1,7 @@
 Question:
 
 How will you analyze the performance of Mid age vs adults in terms of loan repayments.
+
+Solution .txt file:
+
+Available under assests/scripted_data folder.

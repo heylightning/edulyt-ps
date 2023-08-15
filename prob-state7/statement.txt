@@ -5,3 +5,7 @@ a. Insurance.
 b. Household
 c. Leasing
 d. Loan
+
+Solution .txt file:** **
+
+Available under assests/scripted_data folder.

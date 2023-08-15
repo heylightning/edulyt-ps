@@ -1,3 +1,7 @@
 Question:
 
 How many customers having credit card are also availing the loan facilities.
+
+Solution .txt file:
+
+Available under assests/scripted_data folder.

@@ -2,3 +2,7 @@ Question:
 
 Create profile of customers in accordance of districts for the status of loan payment, there will 
 be 4 categories.
+
+Solution .txt file:
+
+Available under assests/scripted_data folder.

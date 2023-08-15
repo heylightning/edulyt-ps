@@ -2,3 +2,7 @@ Question:
 
 Relate the output of above with district conditions like Crime, Unemployment Rate and 
 Average Salary.
+
+Solution .txt file:
+
+Available under assests/scripted_data folder.
