@@ -1,3 +1,7 @@
 Question:
 
 How much money was collected from the other banks for customer belongs to districts where unemployment rate for any year is greater than 2%?
+
+Solution .txt file:
+
+Available under assests/scripted_data folder.
